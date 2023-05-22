@@ -1,0 +1,98 @@
+div {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+  }
+  
+  #advanced,#image,#index {
+    color: black;
+    font-size: 14px;
+  }
+  
+  div:hover {
+    outline: none;
+  }
+  
+  #textbar {
+    position: absolute;
+    padding: 5px;
+    height: 50px;
+    width: 500px;
+    border: 0.5px solid grey;
+    border-radius: 50px;
+    border-color: grey;
+  }
+  
+  #textbar:focus {
+    outline: none;
+  }
+  
+  #button {
+    position: relative;
+    top: 60px;
+    left: 0px;
+  }
+  
+  #imagebutton {
+    position: relative;
+    top: 60px;
+  }
+  
+  #lucky {
+    position: relative;
+    top: 60px;
+    left: 20px;
+  }
+  
+  #search {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #container {
+    top: 20px;
+    left: 5px;
+    position: fixed;
+    padding: 50px;
+    margin: 60px;
+  }
+  
+  #container > #form {
+    position: absolute;
+    min-width: 200px;
+    max-width: 600px;
+    width: 650px;
+    height: 300px;
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  input:focus {
+    outline:  none;
+  }
+  
+  #container > label {
+    font: 1rem 'Fira Sans', sans-serif;
+  }
+  
+  #container > input,
+  label {
+    margin: 0.4rem 0;
+  }
+  
+  #container > input {
+    width: 30%;
+  }
+  
+  #allwords, #exactwords, #nonewords, #anywords {
+    width: 250px;
+    padding: 2px;
+    float: right;
+  }
+  
+  #abutton {
+    float: right;
+  }
